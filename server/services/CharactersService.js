@@ -3,13 +3,13 @@ import { BadRequest } from '../utils/Errors.js'
 
 class CharactersService {
     async editHero(newHero) {
-       const originalHero = await this.getHeroById(newHero.id)
-       originalHero.name = newHero.name || originalHero.name
-       originalHero.age = newHero.age || originalHero.age
-       originalHero.from_earth = newHero.from_earth || originalHero.from_earth
-       originalHero.alien = newHero.alien || originalHero.alien
-       originalHero.SSJ = newHero.SSJ || originalHero.SSJ
-       return originalHero
+        const originalHero = await this.getHeroById(newHero.id)
+        originalHero.name = newHero.name || originalHero.name
+        originalHero.age = newHero.age || originalHero.age
+        originalHero.from_earth = newHero.from_earth || originalHero.from_earth
+        originalHero.alien = newHero.alien || originalHero.alien
+        originalHero.SSJ = newHero.SSJ || originalHero.SSJ
+        return originalHero
     }
     async deleteHero(HeroToDeleteId) {
         const heroToDelete = await this.getHeroById(HeroToDeleteId)

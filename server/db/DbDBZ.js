@@ -8,7 +8,7 @@ export const DbzDB = {
             id: "a1",
             from_earth: false,
             alien: true,
-            SSJ: true       
+            SSJ: true
         },
         {
             name: "Piccolo",
@@ -51,30 +51,30 @@ export const DbzDB = {
             from_earth: false,
             alien: false,
             SSJ: false
-    },
-    {
-             name: "Captain Ginyu",
-             age: null,
-             id: "b2",
-             from_earth: false,
-             alien: true,
-             SSJ: false
-    },
-    {
+        },
+        {
+            name: "Captain Ginyu",
+            age: null,
+            id: "b2",
+            from_earth: false,
+            alien: true,
+            SSJ: false
+        },
+        {
             name: "Jeice",
             age: null,
             id: "b3",
             from_earth: false,
             alien: true,
             SSJ: false
-    },
-    {
+        },
+        {
             name: "Burter",
             age: null,
             id: "b4",
             from_earth: false,
             alien: true,
             SSJ: false
-    }
-]
+        }
+    ]
 }
